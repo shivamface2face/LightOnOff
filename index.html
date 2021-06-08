@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        body{
+            background-color: aqua;
+        }
+        .container {
+        height: 80vh;
+        width: 100%;
+       margin-top: 10%;
+     
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      button{
+          cursor: pointer;
+          align-content: center;
+          background-color: yellow;
+          display: inline-block;
+          font-size: 16px;
+          text-align: center;
+          border-radius: 13px;
+          transition: 4000ms;
+          padding: 10px;
+      }
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="heading">Can You Turn On The Light</h1>
+
+        <button onclick="document.getElementById('imm').src='img/ton.png' ">Turn on the light</button>
+
+
+        <img src="img/toff.png" alt="" srcset="" id="imm" style="width: 150px;">
+
+        <button onclick="document.getElementById('imm').src='img/toff.png' ">Turn on the light</button>
+
+    </div>
+    
+</body>
+</html>
